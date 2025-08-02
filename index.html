@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="https://www.linkedin.com/in/jayanth-k-913095247/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="mailto:kjayanth2627@gmail.com"><i class="fab fa-envelope"></i></a>
+        <a href="https://www.instagram.com/k_jayanth.27/" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Home Section Start -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <div class="text">
+        <div class="text-one">Hello,</div>
+        <div class="text-two">I'm Jayanth K </div>
+        <div class="text-three">AI-ML Engineer</div>
+        <div class="text-four">From Bangalore</div>
+      </div>
+      <div class="button">
+        <button onclick="location.href='9353258171'">Get in touch</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section Start -->
+  <section class="about" id="about">
+    <div class="content">
+      <div class="title"><span>About Me</span></div>
+      <div class="about-details">
+        <div class="left">
+          <img src="Images/about.jpeg" alt="" />
+        </div>
+        <div class="right">
+          <div class="topic">Jayanth K</div>
+          <p>
+            <p>
+  I'm a 4th-year Machine Learning student at BMSCE, passionate about learning new things. My experience spans across AI/ML, web development, and software engineering. I've built projects like an a CNN-powered crop disease classifier, and a Tkinter-based music player using DSA. I aim to bridge real-world problems with impactful tech solutions.
+</p>
+
+          </p>
+          <div class="button">
+            <button>Download CV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Skill Section Start -->
+  <!-- Section Tag and Other Div will same where we need to put same CSS -->
+  <section class="skills" id="skills">
+    <div class="content">
+      <div class="title"><span>My Skills</span></div>
+      <div class="skills-details">
+        <div class="text">
+          <div class="topic">Skills Reflects Our Knowledge</div>
+          <p>Over the years, I've developed a strong foundation in AI/ML, web development, and core programming. 
+            My skills are the result of continuous learning and hands-on projects. I believe in writing clean, efficient code and solving real-world problems through technology.</p>
+          <div class="experience">
+            <div class="num">Infinte</div>
+            <div class="exp">
+              Years Of <br />
+              Learning and Growing 
+            </div>
+          </div>
+        </div>
+        <div class="boxes">
+          <div class="box">
+            <div class="topic">Python</div>
+            <div class="per">90%</div>
+          </div>
+          <div class="box">
+            <div class="topic">Machine Learning</div>
+            <div class="per">80%</div>
+          </div>
+          <div class="box">
+            <div class="topic">HTML/CSS/JS</div>
+            <div class="per">70%</div>
+          </div>
+          <div class="box">
+            <div class="topic">C/C++</div>
+            <div class="per">60%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- My Services Section Start -->
+  <section class="projects" id="projects">
+    <div class="content">
+      <div class="title"><span>My Projects</span></div>
+      <div class="boxes">
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <div class="topic">Washing Machine Simulator</div>
+          <p>A command-line simulator built in C that emulates washing machine cycles like wash, rinse, and spin. Designed using switch-case structures to mimic a real machine engine's logic.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-paint-leaf"></i>
+          </div>
+          <div class="topic">Crop Disease classifier</div>
+          <p>Developed a CNN model to detect crop diseases from leaf images. Used image preprocessing, TensorFlow, and OpenCV to automate disease identification in agriculture.</p>
+        </div>
+        <div class="box">
+          <div class="icon">
+            <i class="fas fa-music"></i>
+          </div>
+          <div class="topic">Music Player</div>
+          <p>Created a GUI-based music player in Python using Tkinter. Features playlist navigation via a doubly linked list and album art display for each song.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Me section Start -->
+  <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <div class="topic">Open to Opportunities</div>
+        <p>I'm currently seeking internship opportunities where I can apply my skills in AI/ML and software development to real-world projects. I'm eager to learn, contribute, and grow as an engineer.</p>
+        <div class="button">
+          <button onclick="location.href='mailto:kjayanth2627@gmail.com'">Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="text">
+      <span>Created By <a href="#">Jayanth K</a> | &#169; 2025 All Rights Reserved</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
