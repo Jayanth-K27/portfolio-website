@@ -4,7 +4,7 @@ This is my responsive personal portfolio website built using **HTML**, **CSS**, 
 
 > 👨‍💻 Developed by: **Jayanth K**  
 > 📍 BMS College of Engineering | B.E. – AIML  
-> 📬 [LinkedIn](#) • [GitHub](#) • [Email](#)
+> 📬 [LinkedIn](https://www.linkedin.com/in/jayanth-k-913095247/) • [GitHub](https://github.com/Jayanth-K27) • [Email](kjayanth2627@gmail.com)
 
 ---
 
