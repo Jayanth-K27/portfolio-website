@@ -29,7 +29,7 @@ This is my responsive personal portfolio website built using **HTML**, **CSS**, 
 
 ## 🖼 Demo
 
-> 🔗 Live Demo (via GitHub Pages):  
+> 🔗 Live Demo :  
 > `https://lucky-licorice-307226.netlify.app/`
 
 ---
